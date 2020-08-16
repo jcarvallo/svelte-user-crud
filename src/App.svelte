@@ -1,11 +1,9 @@
 <script>
-	export let name;
+  import { Inicio } from "./containers";
+  import { Layout, Header } from "./components";
 </script>
 
-<style>
-	h1 {
-		color: purple;
-	}
-</style>
-
-<h1>Hello {name}!</h1>
+<Header />
+<Layout>
+  <Inicio />
+</Layout>
